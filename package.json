@@ -4,7 +4,7 @@
   "description": "",
   "main": "tomar.js",
   "scripts": {
-    "start": "nodemon tomar.js",
+    "start": "node tomar.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
