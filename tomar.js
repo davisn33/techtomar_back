@@ -24,6 +24,6 @@ app.use((error, req, res, next) => {
     })
 })
 var PORT = 3000
-app.listen(PORT||process.env.PORT, ()=> {
+app.listen(PORTT, ()=> {
     console.log(`🚀 at PORT ${PORT}`)
 })
