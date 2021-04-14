@@ -29,7 +29,7 @@ exports.getSliders = (req, res)=> {
                 _id: element._id,
                 title: element.title,
                 img: element.img,
-                url: "http://192.168.139.172:3000/images/"+element.img,
+                url: "https://techtomarback.herokuapp.com/images/"+element.img,
                 created_at: element.created_at,
                 updated_at: element.updated_at
 
